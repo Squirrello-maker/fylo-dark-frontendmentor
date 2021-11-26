@@ -12,9 +12,12 @@ html
 }
 body
 {
-    font-family: 'Open Sans', sans-serif;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Open Sans', sans-serif;  
     font-size: 1.4rem;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: 'Raleway', sans-serif;
 }
 .header
 {
@@ -103,7 +106,7 @@ body
     align-items: center;
     .about
     {
-        padding: 2em;
+        padding: 1.8em;
         background-color: $main;
         .trait
         {
@@ -117,13 +120,69 @@ body
             }
             &__heading
             {
+                margin-bottom: 0.8em;
                 text-align: center;
                 color: #fff;
             }
             &__text
             {
+                margin-bottom: 2em;
                 text-align: center;
                 color: #fff;
+            }
+        }
+    }
+    .see
+    {
+        padding: 1.8em;
+        margin-bottom: 2em;
+        background-color: $main;
+        &__img
+        {
+            width: 100%;
+            margin-bottom: 2em;
+        }
+        &__heading
+        {
+            margin-bottom: 1em;
+           color: #fff;
+           text-align: center;
+        }
+        &__text
+        {
+            margin-bottom: 1em;
+            color: #fff;
+        }
+        &__link
+        {
+            position: relative;
+            text-decoration: none;
+            color: $cyan-gradient;
+            transition: color .3s;
+            img
+            {
+                position: absolute;
+                top: 12%;
+                right: -20px;
+            }
+            &::after
+            {
+                position: absolute;
+                left: 0;
+                bottom: -5px;
+                content: '';
+                height: 2px;
+                width: 115%;
+                background-color: $cyan-gradient;
+                transition: background-color .3s;
+            }
+            &:hover
+            {
+                color: #fff;
+            }
+            &:hover::after
+            {
+                background-color: #fff;
             }
         }
     }
