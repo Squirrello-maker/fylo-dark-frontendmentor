@@ -12,6 +12,13 @@
             }
         }
     }
+    .footer
+    {
+        &__grid
+        {
+            grid-template-columns: .15fr .85fr;
+        }
+    }
 
 }
 @media (min-width: 576px) {
@@ -41,6 +48,13 @@
             }
         }
     }
+    .footer
+    {
+        &__grid
+        {
+            grid-template-columns: .07fr .93fr;
+        }
+    }
 
 }
 @media (min-width: 768px) {
@@ -49,6 +63,15 @@
         &__btn
         {
             margin: 3em 10em;
+        }
+    }
+    .nav
+    {
+        justify-content: space-between;
+        padding: 0 4em;
+        .logo
+        {
+            width: 25%;
         }
     }
     .main
@@ -67,6 +90,10 @@
                 }
             }
         }
+        .early-access
+        {
+            padding: 2em 4em;
+            margin: 1em 2em;
+        }
     }
-
 }
