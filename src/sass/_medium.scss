@@ -1,0 +1,99 @@
+@media (min-width: 425px) {
+    .main
+    {
+        .testimonials
+        {
+            .testimonial
+            {
+                &__img
+                {
+                    width: 90%;
+                }
+            }
+        }
+    }
+    .footer
+    {
+        &__grid
+        {
+            grid-template-columns: .15fr .85fr;
+        }
+    }
+
+}
+@media (min-width: 576px) {
+    .main
+    {
+        .testimonials
+        {
+            &__quote
+            {
+                left: 5%;
+            }
+            .testimonial
+            {
+                grid-template-columns: .1fr .9fr;
+                &__text
+                {
+                    padding: 0 1em;
+                }
+                &__img
+                {
+                    margin-left: 0.5em;
+                }
+                &__customer
+                {
+                    margin-left: 1em;
+                }
+            }
+        }
+    }
+    .footer
+    {
+        &__grid
+        {
+            grid-template-columns: .07fr .93fr;
+        }
+    }
+
+}
+@media (min-width: 768px) {
+    .header
+    {
+        &__btn
+        {
+            margin: 3em 10em;
+        }
+    }
+    .nav
+    {
+        justify-content: space-between;
+        padding: 0 4em;
+        .logo
+        {
+            width: 25%;
+        }
+    }
+    .main
+    {
+        .testimonials
+        {
+            .testimonial
+            {
+                &__img
+                {
+                    width: 90%;
+                }
+                &__text
+                {
+                    padding-right: 6em;
+                }
+            }
+        }
+        .early-access
+        {
+            padding: 2em 4em;
+            margin: 1em 2em;
+        }
+    }
+}
