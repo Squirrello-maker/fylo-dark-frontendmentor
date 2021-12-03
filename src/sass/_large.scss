@@ -1,0 +1,212 @@
+@media (min-width:992px) {
+    .header
+    {
+        // align-items: center;
+        .nav
+        {
+            display: flex;
+            justify-content: center;
+            &__wrapper
+            {
+                max-width: 1300px;
+            }
+            &__item
+            {
+                padding: 1em;
+            }
+            .logo
+            {
+                padding-top: 1em;
+            }
+        }
+        &__intro
+        {
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 70%;
+        }
+        &__btn
+        {
+            margin: 3em 25em;
+            align-self: center;
+            width: 25%;
+            max-width: 1000px;
+        }
+
+    }
+    .main
+    {
+        .about
+        {
+            display: flex;
+            justify-content: center;
+            &__wrapper
+            {
+                display: grid;
+                grid-template-columns: .5fr .5fr;
+                grid-template-rows: .5fr .5fr;
+                justify-content: center;
+                align-items: center;
+                max-width: 1200px;
+            }
+            .trait
+            {
+                padding: 0 6em;
+            }
+        }
+        .see
+        {
+            display: flex;
+            &__img
+            {
+                width: 50%;
+            }
+            &__content
+            {
+                padding-top: 4em;
+                padding-left: 2em;
+            }
+            &__heading
+            {
+                margin-bottom: 0.5em;
+                font-size: 4rem;
+                text-align: left;
+            }
+        }
+        .see
+        {
+            display: flex;
+            justify-content: center;
+            &__wrapper
+            {
+                display: flex;
+                max-width: 1000px;
+            }
+        }
+        .testimonials
+        {
+            display: flex;
+            justify-content: center;
+            padding: 4em;
+            padding-bottom: 15em;
+            &__quote
+            {
+                top: -35px;
+                left: -7px;
+            }
+            .testimonial
+            {
+                position: relative;
+                margin-right: 1em;
+                grid-template-columns: .2fr .8fr;
+                &__text
+                {
+                    padding-right: .5em;
+                }
+            }
+            &__wrapper
+            {
+                flex-direction: row;
+                justify-content: space-between;
+                max-width: 1400px;
+            }
+        }
+        .early-access
+        {
+            width: 80%;
+            max-width: 800px;
+            left: 50%;
+            bottom: -30%;
+            transform: translateX(-55%);
+            margin: 1em 4em;
+            &__heading
+            {
+                margin: 0.5em 0;
+                font-size: 4rem;
+            }
+            &__register
+            {
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+            }
+            input
+            {
+                width: 60%;
+            }
+            &__btn
+            {
+                width: 30%;
+                height: 45px;
+                transform: translateY(30%);
+                margin-left: 1em;
+                padding: 0.5em;
+            }
+        }
+    }
+    .footer
+    {
+        display: flex;
+        justify-content: center;
+        &__flex
+        {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            &__box
+            {
+                margin: 1em 0;
+            }
+        }
+        &__grid
+        {
+            display: block;
+        }
+        &__text
+        {
+            &--loc
+            {
+                padding-right: 3em;
+            }
+        }
+        &__links
+        {
+            padding: 0 3em;
+        }
+        &__link
+        {
+            padding: 0 1em;
+        }
+        &__social
+        {
+            margin: 0 .4em;
+        }
+        &__wrapper
+        {
+            max-width: 1000px;
+        }
+    }
+}
+@media (min-width: 1400px) {
+    .header
+    {
+        .logo
+        {
+            width: 20%;
+        }
+        &__btn
+        {
+            
+            width: 20%;
+            
+        }
+    }
+    .main
+    {
+        .testimonials
+        {
+
+        }
+    }
+}

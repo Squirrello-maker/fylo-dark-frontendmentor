@@ -17,12 +17,14 @@
 <body>
     <header class="header">
         <nav class="nav">
+          <div class="nav__wrapper">
             <img src="./src/img/logo.svg" alt="Fylo logo" class="logo">
             <div class="nav__links">
                 <a href="" class="nav__item">Features</a>
                 <a href="" class="nav__item">Team</a>
                 <a href="" class="nav__item">Sign In</a>
             </div>
+          </div>
         </nav>
         <img src="./src/img/illustration-intro.png" alt="intro illustration" class="header__intro">
         <h1 class="header__heading">All your files in one secure location, accessible anywhere.</h1>
@@ -32,43 +34,53 @@
     </header>
     <main class="main">
       <section class="about">
+        <div class="about__wrapper">
           <div class="trait">
-              <img src="./src/img/icon-access-anywhere.svg" alt="" class="trait__img">
-              <h3 class="trait__heading">Access your files, anywhere</h3>
-              <p class="trait__text">The ability to use a smartphone, tablet, or computer to access your account means your 
-                files follow you everywhere.</p>
-          </div>
-          <div class="trait">
-              <img src="./src/img/icon-security.svg" alt="" class="trait__img">
-              <h3 class="trait__heading"> Security you can trust</h3>
-              <p class="trait__text">2-factor authentication and user-controlled encryption are just a couple of the security 
-                features we allow to help secure your files.</p>
-          </div>
-          <div class="trait">
-              <img src="./src/img/icon-collaboration.svg" alt="" class="trait__img">
-              <h3 class="trait__heading">Real-time collaboration</h3>
-              <p class="trait__text">Securely share files and folders with friends, family and colleagues for live collaboration. 
-                No email attachments required.</p>
-          </div>
-          <div class="trait">
-              <img src="./src/img/icon-any-file.svg" alt="" class="trait__img">
-              <h3 class="trait__heading">Store any type of file</h3>
-              <p class="trait__text">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-                file types to be securely stored and shared.</p>
-          </div>
+            <img src="./src/img/icon-access-anywhere.svg" alt="" class="trait__img">
+            <h3 class="trait__heading">Access your files, anywhere</h3>
+            <p class="trait__text">The ability to use a smartphone, tablet, or computer to access your account means your 
+              files follow you everywhere.</p>
+        </div>
+        <div class="trait">
+            <img src="./src/img/icon-security.svg" alt="" class="trait__img">
+            <h3 class="trait__heading"> Security you can trust</h3>
+            <p class="trait__text">2-factor authentication and user-controlled encryption are just a couple of the security 
+              features we allow to help secure your files.</p>
+        </div>
+        <div class="trait">
+            <img src="./src/img/icon-collaboration.svg" alt="" class="trait__img">
+            <h3 class="trait__heading">Real-time collaboration</h3>
+            <p class="trait__text">Securely share files and folders with friends, family and colleagues for live collaboration. 
+              No email attachments required.</p>
+        </div>
+        <div class="trait">
+            <img src="./src/img/icon-any-file.svg" alt="" class="trait__img">
+            <h3 class="trait__heading">Store any type of file</h3>
+            <p class="trait__text">Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
+              file types to be securely stored and shared.</p>
+        </div>
+        </div>
+          
       </section>
       <section class="see">
+        <div class="see__wrapper">
           <img src="./src/img/illustration-stay-productive.png" alt="stay productive image" class=see__img>
-          <h3 class="see__heading">Stay productive, wherever you are</h3>
-          <p class="see__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
-            storage needs.</p>
-          <p class="see__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
-            attachments required.</p>
-        <a href="" class="see__link">See how Fylo works <img src="./src/img/icon-arrow.svg" alt=""></a>
+          <div class="see__content">
+            <h2 class="see__heading">Stay productive, wherever you are</h2>
+            <p class="see__text">Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
+              storage needs.</p>
+            <p class="see__text">Securely share files and folders with friends, family and colleagues for live collaboration. No email 
+              attachments required.</p>
+          <a href="" class="see__link">See how Fylo works <img src="./src/img/icon-arrow.svg" alt=""></a>
+          </div>
+        </div>
+
+
       </section>
       <section class="testimonials">
-          <img src="./src/img/bg-quotes.png" alt="" class="testimonials__quote">
+        <div class="testimonials__wrapper">
           <div class="testimonial">
+            <img src="./src/img/bg-quotes.png" alt="" class="testimonials__quote">
               <p class="testimonial__text">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
                 become a well-oiled collaboration machine.</p>
               <img src="./src/img/profile-1.jpg" alt="" class="testimonial__img">
@@ -98,36 +110,54 @@
               <h2 class="early-access__heading"> Get early access today</h2>
               <p class="early-access__text">It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
                 questions, our support team would be happy to help you.</p>
-                <input type="text" id="" placeholder="email@example.com">
-                <button class="early-access__btn">Get Started For Free</button>
+                <div class="early-access__register">
+                  <input type="text" id="" placeholder="email@example.com">
+                  <button class="early-access__btn">Get Started For Free</button>
+                </div>
           </div>
+        </div>
+          
       </section>
     </main>
     <footer class="footer">
+      <div class="footer__wrapper">
         <img src="./src/img/logo.svg" alt="" class="footer__logo">
-        <div class="footer__grid">
-            <img src="./src/img/icon-location.svg" alt="" class="footer__icon">
-            <p class="footer__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-                dolore magna aliqua</p>
-            <img src="./src/img/icon-phone.svg" alt="" class="footer__icon">
-            <p class="footer__text">+1-543-123-4567</p>
-            <img src="./src/img/icon-email.svg" alt="" class="footer__icon">
-            <p class="footer__text">example@fylo.com</p>
-        </div>
-        <div class="footer__links">
-            <a href="" class="footer__link">About Us</a>
-            <a href="" class="footer__link">Jobs</a>
-            <a href="" class="footer__link">Press</a>
-            <a href="" class="footer__link">Blog</a>
-            <a href="" class="footer__link">Contact Us</a>
-            <a href="" class="footer__link">Terms</a>
-            <a href="" class="footer__link">Privacy</a>
-        </div>
-        <div class="footer__socials">
-            <a href="" class="footer__social"><i class="fab fa-facebook-f"></i></a>
-            <a href="" class="footer__social"><i class="fab fa-twitter"></i></a>
-            <a href="" class="footer__social"><i class="fab fa-instagram"></i></a>
-        </div>
+        <div class="footer__flex">
+          <div class="footer__grid">
+            <div class="footer__grid__box footer__grid__box--location">
+              <img src="./src/img/icon-location.svg" alt="" class="footer__icon footer__icon--location">
+              <p class="footer__text footer__text--loc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                  dolore magna aliqua</p>
+            </div>
+          </div>
+          <div class="footer__flex--phmail">
+            <div class="footer__grid__box footer__flex__box">
+              <img src="./src/img/icon-phone.svg" alt="" class="footer__icon">
+              <p class="footer__text">+1-543-123-4567</p>
+            </div>
+            <div class="footer__grid__box footer__flex__box">
+              <img src="./src/img/icon-email.svg" alt="" class="footer__icon">
+              <p class="footer__text">example@fylo.com</p>
+            </div>
+          </div>
+          <div class="footer__links footer__links--first">
+              <a href="" class="footer__link">About Us</a>
+              <a href="" class="footer__link">Jobs</a>
+              <a href="" class="footer__link">Press</a>
+              <a href="" class="footer__link">Blog</a>
+          </div>
+              <div class="footer__links footer__links--second">
+                <a href="" class="footer__link">Contact Us</a>
+                <a href="" class="footer__link">Terms</a>
+                <a href="" class="footer__link">Privacy</a>
+              </div>
+          <div class="footer__socials">
+              <a href="" class="footer__social"><i class="fab fa-facebook-f"></i></a>
+              <a href="" class="footer__social"><i class="fab fa-twitter"></i></a>
+              <a href="" class="footer__social"><i class="fab fa-instagram"></i></a>
+          </div>
+        </div>      
+      </div>
     </footer>
 </body>
 </html>
