@@ -7,7 +7,6 @@ mailBtn.addEventListener('click', () =>{
     
     if(mailInput.value == '' || !mailInput.value.match(regExp))
     {
-        console.log(mail.getBoundingClientRect());
         err.style.display = 'block';
     }
 })
